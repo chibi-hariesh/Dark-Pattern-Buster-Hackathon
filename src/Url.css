@@ -1,0 +1,42 @@
+/* UrlComponent.css */
+
+.url-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.url-container {
+  margin-bottom: 20px;
+}
+
+.url-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 20px; /* Adjust border-radius for rounded edges */
+  width: 800px; /* Increase width for a longer input box */
+  height: 25px;
+  text-align: center; /* Center the text inside the input box */
+  outline: none; /* Remove default outline */
+}
+
+/* Style placeholder text */
+.url-input::placeholder {
+  text-align: center; /* Center the placeholder text */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}

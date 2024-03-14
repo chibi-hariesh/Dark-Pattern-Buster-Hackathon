@@ -1,0 +1,61 @@
+/* common.css */
+
+.card {
+    background-color: #ffffff; /* Semi-transparent black background */
+    color: #000000; /* Black text color for better contrast */
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 3.5%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Larger shadow on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.loading-screen{
+    margin: 10px 10px 10px 10px;
+}
+
+/* CSS for loading spinner */
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite; /* Spinner animation */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  

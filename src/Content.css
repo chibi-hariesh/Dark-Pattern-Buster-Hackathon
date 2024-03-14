@@ -1,0 +1,27 @@
+/* Content.css */
+
+.detect-container {
+    background-color: #000000; /* Background color */
+    color: white; /* Font color */
+    padding: 5px;
+  }
+  
+  .policy-container {
+    max-width: 800px; /* Maximum width of the content */
+    margin: 0 auto; /* Center the content horizontally */
+  }
+  
+  .policy-container h1 {
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+  }
+  
+  .policy-container ol {
+    padding-left: 20px; /* Left padding for ordered list */
+  }
+  
+  .policy-container ol li {
+    font-size: 15px; /* List item font size */
+    margin-bottom: 10px; /* Bottom margin for spacing */
+  }
+  

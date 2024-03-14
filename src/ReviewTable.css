@@ -1,0 +1,48 @@
+/* Overall container */
+.review-table-container {
+    margin-top: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling on small screens */
+}
+
+/* Table styling */
+.review-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #333; /* Dark background color */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #fff; /* White text color */
+    table-layout: fixed; /* Fix table layout to prevent cell expansion */
+}
+
+/* Table header cells */
+.review-table th {
+    padding: 12px; /* Adjust cell padding */
+    text-align: left;
+    border-bottom: 1px solid #555; /* Darker border color */
+}
+
+/* Table data cells */
+.review-table td {
+    padding: 12px; /* Adjust cell padding */
+    border-bottom: 1px solid #555; /* Darker border color */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* Row hover effect */
+.review-table tbody tr:hover {
+    background-color: #444; /* Darker background color on hover */
+}
+
+/* Alternating row colors */
+.review-table tbody tr:nth-child(even) {
+    background-color: #444; /* Darker background color */
+}
+
+/* Full content display on hover */
+.review-table tbody tr:hover td {
+    white-space: normal;
+    text-overflow: inherit;
+    overflow: visible;
+}
